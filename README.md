@@ -26,7 +26,7 @@ Em suma, uma pequena analise dos dados.
 
   2. Instruções de como rodar o projeto no README;
       
-      **Como foi utilizado (ipython notebooks)[http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html] apenas copiar o arquivo e rodar. As dependencias se encontram na parte superior de cada script.**
+      **Como foi utilizado** (ipython notebooks)[http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html] **apenas copiar o arquivo e rodar. As dependencias se encontram na parte superior de cada script.**
 
   3. Uma breve explanação concisa das suas principais decisões de projeto em um arquivo "REPORT.txt", tais como (mas não limitadas a):
 
