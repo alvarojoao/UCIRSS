@@ -20,15 +20,15 @@ Em suma, uma pequena analise dos dados.
 
 ##Apresentação do projeto
 
-  **1. O código do projeto; **
+  1. O código do projeto;
 
       **Em todos os NoteBooks com excessão `Problem analysis.ipynb`**
 
-  **2. Instruções de como rodar o projeto no README;**
+  2. Instruções de como rodar o projeto no README;
       
       **Como foi utilizado** [ipython notebooks](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html) **apenas copiar o arquivo e rodar. As dependencias se encontram na parte superior de cada script.**
 
-  **3. Uma breve explanação concisa das suas principais decisões de projeto em um arquivo "REPORT.txt", tais como (mas não limitadas a):**
+  3. Uma breve explanação concisa das suas principais decisões de projeto em um arquivo "REPORT.txt", tais como (mas não limitadas a):
 
       *O "Report.txt" Se encontra no mesmo README.md. Abaixo*
 
