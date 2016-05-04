@@ -23,15 +23,27 @@ Em suma, uma pequena analise dos dados.
   1. O código do projeto;
 
       **Em todos os NoteBooks com excessão `Problem analysis.ipynb`**
-
+    
   2. Instruções de como rodar o projeto no README;
       
       **Como foi utilizado** [ipython notebooks](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html) **apenas copiar o arquivo e rodar. As dependencias se encontram na parte superior de cada script.**
-
+    
   3. Uma breve explanação concisa das suas principais decisões de projeto em um arquivo "REPORT.txt", tais como (mas não limitadas a):
 
       *O "Report.txt" Se encontra no mesmo README.md. Abaixo*
+      
+#### Todo os códigos apresentados foram desenvolvidos em R no cabeçalho inicial estão os pacotes usados e necessários para executar o script.
 
+#### Em todos os Arquivos ipython, com exceção do arquivo "Problem analysis.ipynb", iremos analizar diversas técnica de classificação, onde iremos seguir a ordem:
+      
+          1. Group 1 (Ambiente 1) Cross-Validation 10-fold
+          2. Group 2 (Ambiente 2) Cross-Validation 10-fold
+          3. Group 3 (Ambiente 3) Cross-Validation 10-fold
+          4. Todos os Groups  (Ambiente 1,Ambiente 2,Ambiente 3 ) Cross-Validation 10-fold
+          5. Curva ROC e AUC com todos os Groups
+          
+          
+      
       **a. Qual algoritmo de classificação foi utilizado e o motivo;**
       
       Utilizei apenas 2 classificadores, KNN e SVM, considerei que o problema pode ser linearmente separavel.
