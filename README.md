@@ -32,9 +32,38 @@ Em suma, uma pequena analise dos dados.
 
       *O "Report.txt" Se encontra no mesmo README.md. Abaixo*
       
-#### Todo os códigos apresentados foram desenvolvidos em R no cabeçalho inicial estão os pacotes usados e necessários para executar o script.
+    **a. Qual algoritmo de classificação foi utilizado e o motivo;**
+    
+    Utilizei apenas 2 classificadores, KNN e SVM, considerei que o problema pode ser linearmente separavel.
+    Mais importante que os classificadores, são as estratégias de manipulações dos dados e o entendimento da base e do problema.
+    
+    O classificador é a ultima coisa que o analista deve se preocupar. Nos notebooks é feita uma pequena e inicial analise do problema e o seu comportamento diante de alguns classificaores.
+    
+    Utilizei no total 4 estratégias diferentes, descritas no cabeçalho de cada arquivo.
+    
+   **b. Qual a técnica de split utilizada e o motivo;**
+    
+    Nese projeto apenas usei 2 bases, uma base de treinamento e uma de teste. Durante o split as bases foram estratificadas, para que as bases sejam devidamente porporcionais em ambas classes binárias. Para manter o processo simples decidir não utilzier a base de validação. Decidir explorar de forma mais adequada o etendimento do problema e o comportamento dele diantes das estratégias utilizadas.
+    
+    Diante de cada modelo utilizamos 10-fold cross validation. Após isso fazemos a média e o desvio padrão da taxa de acerto (accuracy). A média e o sd (desvio padrão) nos informa se o modelo criado é robusto e que a solução oferecida é estável.
+    
+    **c. Processo de feature engineering, caso haja;**
+    
+    Foi utilizado DTW, DWT e PCA, todos em cada arquivos separado e com suas respectivas explicações.
+    
+    **d. Descrição das métricas através das quais o modelo foi avaliado**
+    
+    Além da taxa de acerto, usamos matrix de confusão. 
+    
+    Na parte final usamos também curva **ROC** e **AUC** (area under curve). Essas métricas nos permite comparar modelos diferentes diantes do mesmo problema de forma efetiva (quantitativa usando **AUC**) e gráfica (usando curva **ROC**).
+    
+    Essas métricas são as clássicas e mais utilizadas no processo de criação de modelos de classificadores binários.
+    
 
-#### Em todos os Arquivos ipython, com exceção do arquivo "Problem analysis.ipynb", iremos analizar diversas técnica de classificação, onde iremos seguir a ordem:
+
+##### Todo os códigos apresentados foram desenvolvidos em R no cabeçalho inicial estão os pacotes usados e necessários para executar o script.
+
+##### Em todos os Arquivos ipython, com exceção do arquivo "Problem analysis.ipynb", iremos analizar diversas técnica de classificação, onde iremos seguir a ordem:
       
           1. Group 1 (Ambiente 1) Cross-Validation 10-fold
           2. Group 2 (Ambiente 2) Cross-Validation 10-fold
@@ -42,34 +71,3 @@ Em suma, uma pequena analise dos dados.
           4. Todos os Groups  (Ambiente 1,Ambiente 2,Ambiente 3 ) Cross-Validation 10-fold
           5. Curva ROC e AUC com todos os Groups
           
-          
-      
-      **a. Qual algoritmo de classificação foi utilizado e o motivo;**
-      
-      Utilizei apenas 2 classificadores, KNN e SVM, considerei que o problema pode ser linearmente separavel.
-      Mais importante que os classificadores, são as estratégias de manipulações dos dados e o entendimento da base e do problema.
-      
-      O classificador é a ultima coisa que o analista deve se preocupar. Nos notebooks é feita uma pequena e inicial analise do problema e o seu comportamento diante de alguns classificaores.
-      
-      Utilizei no total 4 estratégias diferentes, descritas no cabeçalho de cada arquivo.
-      
-     **b. Qual a técnica de split utilizada e o motivo;**
-      
-      Nese projeto apenas usei 2 bases, uma base de treinamento e uma de teste. Durante o split as bases foram estratificadas, para que as bases sejam devidamente porporcionais em ambas classes binárias. Para manter o processo simples decidir não utilzier a base de validação. Decidir explorar de forma mais adequada o etendimento do problema e o comportamento dele diantes das estratégias utilizadas.
-      
-      Diante de cada modelo utilizamos 10-fold cross validation. Após isso fazemos a média e o desvio padrão da taxa de acerto (accuracy). A média e o sd (desvio padrão) nos informa se o modelo criado é robusto e que a solução oferecida é estável.
-      
-      **c. Processo de feature engineering, caso haja;**
-      
-      Foi utilizado DTW, DWT e PCA, todos em cada arquivos separado e com suas respectivas explicações.
-      
-      **d. Descrição das métricas através das quais o modelo foi avaliado**
-      
-      Além da taxa de acerto, usamos matrix de confusão. 
-      
-      Na parte final usamos também curva **ROC** e **AUC** (area under curve). Essas métricas nos permite comparar modelos diferentes diantes do mesmo problema de forma efetiva (quantitativa usando **AUC**) e gráfica (usando curva **ROC**).
-      
-      Essas métricas são as clássicas e mais utilizadas no processo de criação de modelos de classificadores binários.
-      
-
-
