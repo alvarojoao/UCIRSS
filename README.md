@@ -30,7 +30,7 @@ Em suma, uma pequena analise dos dados.
     
   3. Uma breve explanação concisa das suas principais decisões de projeto em um arquivo "REPORT.txt", tais como (mas não limitadas a):
 
-      *O "Report.txt" Se encontra no mesmo README.md. Abaixo*
+  #"Report.txt" 
       
     **a. Qual algoritmo de classificação foi utilizado e o motivo;**
     
