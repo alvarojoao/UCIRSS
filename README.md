@@ -55,7 +55,7 @@ Em suma, uma pequena analise dos dados.
     
     Além da taxa de acerto, usamos matrix de confusão. 
     
-    Na parte final usamos também curva **ROC** e **AUC** (area under the curve). Essas métricas nos permite comparar modelos diferentes diantes do mesmo problema de forma efetiva (quantitativa usando **AUC**) e gráfica (usando curva **ROC**). Além disso, essas métricas nos permite enteder e escolher quais são os melhores threshholds.
+    Na parte final usamos também curva **ROC** e **AUC** (area under the curve). Essas métricas nos permite comparar modelos diferentes diantes do mesmo problema de forma efetiva (quantitativa usando **AUC**) e gráfica (usando curva **ROC**). Além disso, essas métricas nos permite enteder e escolher quais são os melhores thresholds(o valor que melhor representa o ponto de corte ou ponto de decisão para cada classe estatisticamente, nesse nosso caso o threshold foi de 0.5 (50%) para se decidir entre uma classe ou outra, a curva ROC nos ajuda a melhor escolher esse valor para manter o sistema seguro e consistênte).
     
     Essas métricas são as clássicas e mais utilizadas no processo de criação de modelos de classificadores binários.
     
